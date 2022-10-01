@@ -94,7 +94,7 @@ async def hello(update: Update, context) :
     await update.message.reply_text(f'Hello {update.effective_user.first_name}')
 
 def main():
-    app = ApplicationBuilder().token('5456989423:AAFmWD8ekLD-wz1IvOLELaNz5yM6ClpS-2Y').build()
+    app = ApplicationBuilder().token('[API-KEY]').build()
     app.add_handler(CommandHandler('start',start))
     app.add_handler(CommandHandler('ipscan',ipscan))
     app.add_handler(CommandHandler('urlscan',urlscan))
