@@ -10,7 +10,7 @@
                                                       
 ```
 
-Telegram bot for checking maliciousness of ip address or url
+Telegram bot for checking maliciousness of ip address and url
 
 ## For Installation
 
