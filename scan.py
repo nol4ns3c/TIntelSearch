@@ -3,7 +3,7 @@ import requests
 import json
 ###########################virustotal#################################################################################
 def vts(ip):
-    client = vt.Client("df5258471dd63dcd21c6490a2b3e096578ec9ddc00c01e4dc354a49098a2e2d1")
+    client = vt.Client("[API_KEY]")
     url_id = vt.url_id(ip)
 
     urlr = client.get_object("/urls/{}", url_id)
@@ -28,7 +28,7 @@ def abip(ip):
 
     headers = {
         'Accept': 'application/json',
-        'Key': '3e9d1688f4e95345b71989173f0ae874c4827890148f54ef6c1437665acb95c7a3aee6520ceeb090'
+        'Key': '[API_KEY]'
     }
 
     response = requests.request(method='GET', url=url, headers=headers, params=querystring)
