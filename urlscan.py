@@ -12,7 +12,7 @@ def urlscan(url):
 
 ##########################virustotal#################################################################################
 def vts_url(url):
-    client = vt.Client("df5258471dd63dcd21c6490a2b3e096578ec9ddc00c01e4dc354a49098a2e2d1")
+    client = vt.Client("[VT API KEY]")
     url_id = vt.url_id(url)
 
     urlr = client.get_object("/urls/{}", url_id)
