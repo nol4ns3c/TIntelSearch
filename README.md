@@ -15,9 +15,9 @@ Telegram bot for checking maliciousness of ip address and url
 ## For Installation
 
 
-``` git clone https://github.com/nol4ns3c/IntelX```
+``` git clone https://github.com/nol4ns3c/TIntelSearch```
 
-```cd IntelX```
+```cd TIntelSearch```
 
 ```pip install -r requirements.txt```
 
